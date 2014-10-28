@@ -1,14 +1,8 @@
-<?php 
-	require_once 'functions/init.php';
-
-	$title = 'Home';
-	require_once 'includes/head.php';
-?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/php/includes/init.php"; ?>
+<?php require_once PATH . "/php/includes/head.php"; ?>
 <!-- Content starts -->
 
 
 
 <!-- Content ends -->
-<?php 
-	require_once 'includes/foot.php';
-?>
+<?php require_once  PATH . "/php/includes/foot.php"; ?>
